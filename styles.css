@@ -20,7 +20,7 @@ body{
 }
 .header h1{
     font-size: 3em;
-    margin-bottom: 0
+    margin-bottom: 15px;
 }
 .listItems li{
     font-size: 1.35em;

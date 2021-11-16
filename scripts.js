@@ -6,14 +6,16 @@ let btnShuffle = document.getElementById('shuffle-button');
 btnShuffle.addEventListener('click', shuffleClicked);
 
 function shuffleClicked() {
-    console.log('clicked');
-    loadItems(shuffle(toDoItems));
+    $('#listItems').slideUp('duration:100', () => {
+        let a = shuffle(toDoItems);
+        loadItems(a);
+    });
+    $('#listItems').slideDown('Duration:400');
 }
 
 function shuffle(items) {
     let newArray = [];
     let indexUsed = [];
-    console.log('shuffling');
     let size = items.length;
     for (i = 0; i < items.length; i++) {
         let t = 0;
