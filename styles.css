@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*
+font-family: 'Fredoka One', cursive;
+font-family: 'Permanent Marker', cursive;
+*/
+body{
+    background-color: #006eff;
+    color:white;
+    font-family: 'Fredoka One', cursive;
+    box-sizing: content-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    padding: 0;
+}
+.header h1{
+    font-size: 3em;
+    margin-bottom: 0
+}
+.listItems li{
+    font-size: 1.35em;
+    margin-bottom: 6px;
+}
+#shuffle-button{
+    margin-top:15px;
+    width: 130px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid white;
+    color:white;
+    background-color: #006eff;
+    font-size: 2.2em;
+    cursor: pointer;
+}
+#shuffle-button:hover{
+    border: 1px solid #006eff;
+    color:006eff;
+    background-color: white;
+    color:#006eff
+}
