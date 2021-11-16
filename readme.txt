@@ -6,7 +6,7 @@ Date:       16/Nov/2021
 Description:
             This is a simple excersise that shows a webpage with a list of toDo items.
             It uses CSS for the look of the page, javascript to add a little of interaction
-            It also uses jnode to animate the list.
+            It also uses JQuery to animate the list.
 It shows:
 
 Basic HTML sintax, incluidin adding clases and ID to elements
